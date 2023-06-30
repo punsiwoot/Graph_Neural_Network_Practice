@@ -1,2 +1,2 @@
 # Graph_Neural_Network_Practice
- learning to use and imprement graph
+ this is my code when learning graph neural network
