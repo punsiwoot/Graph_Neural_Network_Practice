@@ -20,7 +20,7 @@ model = simple_GCN(
 )
 
 loss_fcn = torch.nn.CrossEntropyLoss()
-optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
 epochs = 400
 
 
