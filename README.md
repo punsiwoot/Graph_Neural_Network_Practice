@@ -1,16 +1,21 @@
 # Graph_Neural_Network_Practice
- this is my code when learning graph neural network
+ this is my code when learning graph neural network hope this helpful to someone who learning 
 
- ## Graph Convolutional
+ ## what is graph?
+ graph is the way to represent data that have a structure with a Vertex(Node) and edge. there are really way to represent a data like unweight(non-direction), weight and also bipatite graph . we can see the form of graph in a adjacency matix, edge_list ,etc. in graph traditional method there are bag of degree, bag of graphlet, neighbor degree struture( degree is a node total number connection), color refinement, etc .the best way to learn represent of the graph is embedding and there are a method like node2vec and random walk but all of these is not looking into a node feature like random walk there random path and train to make it have a vector to close to each node if they have a short path so the new era of graph is a deeplearning method that really look into a node feature. this is really quick introduction from me if you interesting i reccommand to watch a lecture call cs224w this is really great free source ""if am note some thing wrong really sorry for that :)
+
+ ## Graph Convolutional Neural network
  ### simple_GCN(imprement on zachary karate club dataset)
- this process is a message aggreation and pass through a liner layer
+ this process is a message passing(aggreation) and pass through a liner layer
  if these process repeat N time it will mean having N layer of GCN all of 
  these will output a embeding of Graph structure+feature and the last layer will be linear layer to classifire a node
 
 
  * first embeding before train process
- <img src="/image/simple_GCN_first_embed.png" alt="Alt text" title="Optional title" width="300" height="300">
+ <img src="/image/simple_GCN_first_embed.png" alt="Alt text" title="Optional title" width="500" height="500">
 
  * last embeding after train process
- <img src="/image/simple_GCN_last_embed.png" alt="Alt text" title="Optional title" width="300" height="300">
+ <img src="/image/simple_GCN_last_embed.png" alt="Alt text" title="Optional title" width="500" height="500">
+
+ ## Graph Attention Neural network(upcoming)
  
